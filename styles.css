@@ -269,7 +269,7 @@ footer{
     margin-top: 20px;
     margin-right: 100px;
 }
-@media screen and (min-device-width:481px) and (max-device-width:768px)
+@media screen and (min-device-width:300px) and (max-device-width:768px)
 {
     
     body{
@@ -376,8 +376,11 @@ footer{
     padding-right: 40px;
     font-size: 15px;
     font-weight: 0;
-    height: 100px;
+    height: 160px;
 
+}
+.fourth{
+height: 600px;
 }
 .sky{
     margin-left: 0;
@@ -392,8 +395,8 @@ footer{
     font-weight: 0;
     height: 250px;
 }
-input{
-    width: 80%;
+input[type=text]{
+    width: 60%;
 }
 .send{
     width:50%;
@@ -419,4 +422,29 @@ footer{
 .footerright{
     margin-top: 5px;
   
+}
+.pix3{
+    background-color: white;
+    width: 60%;
+    height: 150px; 
+    margin: 4px;  
+    padding-top: 10px;
+}
+.pix11{
+    background-color: white;
+    width: 60%;
+    height: 150px;
+    margin: 4px;
+    padding-top: 10px;
+}
+.pix22{
+    background-color: white;
+    width: 60%;
+    height: 150px;
+    margin: 4px;
+    padding-top: 10px;
+}
+.card{
+    justify-content: center;
+    
 }
