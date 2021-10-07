@@ -1,0 +1,267 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+  
+    
+    
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color: white;
+   max-width: 100vw;
+    height: 60px;
+    
+    
+    
+}
+.list{
+    margin-right: 150px;
+}
+.list a{
+    text-decoration:none;
+    color:grey;
+    padding: 10px;
+    
+}
+.list li{
+    list-style-type: none;
+    float: right;
+   font-weight: 500;
+   margin-top: -40px;
+   padding-bottom: 60px;
+
+   
+}
+.text{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 150px;
+    padding-top: 20px;
+
+}
+#app{
+    color:  rgb(45, 134, 134);
+    
+}
+.first{
+   
+    width: 100vw;
+    height: 400px;
+    background:url(./image-intro-desktop.jpg);
+    
+   
+    
+   
+}
+.first::before{
+    background-color: rgba(135, 94, 185, 0.9);
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 400px;
+   
+}
+.starter{
+    color: white;
+   
+}
+#starter{
+    color: white;   
+}
+.text1{
+  
+   margin-left: 650px;
+   margin-top: -300px;
+}
+
+.one{
+    background-color:  rgb(45, 134, 134);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+}
+.secod{
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height:300px;
+    padding: 10px;
+    overflow: hidden;
+   
+}
+.new{
+    color: white;
+    text-align: center;
+}
+#new{
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    padding-top: 30px;
+    
+}
+#left{
+    color: white;
+    text-align: left;
+    
+}
+.left{
+    text-align: left;
+    width:450px;
+    margin-left: 200px;
+}
+.blue{
+    color:rgb(35, 35, 119)
+}
+.white{
+    color: white;
+}
+.rightimg{
+    display:flex;
+    margin: 10px;
+}
+.pix1{
+    
+    width: 150px;
+    height: 150px;
+    position: relative;
+   margin: 10px;
+    
+}
+.pix2{
+  
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 10px;
+    
+}
+
+
+.third{
+    background-color: rgb(45, 134, 134);
+    padding: 50px;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+}
+.lear{
+    background-color:  black;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+}
+.fourth{
+    background-color: rgba(77, 42, 119, 0.9);
+    height: 290px;
+    padding: 10px;
+    width:100%;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    color:rgb(45, 134, 134) ; 
+  font-weight: 100;
+  
+   
+}
+.pix3{
+    background-color: white;
+    width: 150px;
+    height: 150px; 
+    margin: 4px;  
+    padding-top: 10px;
+}
+.pix11{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    padding-top: 10px;
+}
+.pix22{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    padding-top: 10px;
+}
+.register{
+    background-color:rgb(45, 134, 134) ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.fifth{
+    background-color: rgba(45, 134, 134, 0.7); 
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 370px;
+}
+input:focus{
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 370px; 
+}
+::placeholder{
+    color: white;
+    font-weight: 200;
+}
+.send{
+    background-color: white;
+    color:rgb(45, 134, 134);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.copy{
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.footerright{
+    margin-top: 20px;
+    margin-right: 100px;
+}
